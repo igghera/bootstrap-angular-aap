@@ -1,0 +1,40 @@
+/* Bottom navbar */
+
+$footer-line-height: 13px;
+
+.navbar-footer-gray {
+    .navbar-inner {
+        background-color: #8f8f8f;
+        background-image: none;
+    }
+
+    .nav {
+        padding-top: $footer-line-height;
+    }
+
+    .navbar-footer-text {
+        padding: $footer-line-height 0 0;
+        color: #ddd;
+        font-size: 0.8em;
+    }
+
+    .navbar-footer-logo {
+        height: 25px;
+    }
+
+    .brand {
+        padding-right: 10px;
+    }
+}
+
+.navbar-footer-gray .nav > li > a {
+    color: #ddd;
+    font-size: 0.8em;
+    text-shadow: none;
+    margin-left: 1em;
+    padding: 0;
+
+    &:hover {
+        color: #f00;
+    }
+}

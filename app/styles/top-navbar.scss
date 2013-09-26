@@ -1,0 +1,25 @@
+/* Top navbar */
+
+.navbar-header-white {
+    .navbar-inner {
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .nav .active > a {
+		color: #f00;
+		background-color: #fff;
+		box-shadow: none;
+    }
+
+    .navbar-header-primary {
+        padding-top: 22px;
+    }
+
+    /* Secondary top navbar */
+
+    .navbar-header-secondary {
+        background-color: #5f6062;
+        background-image: none;
+    }
+}

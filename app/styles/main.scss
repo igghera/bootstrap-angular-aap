@@ -1,0 +1,12 @@
+$iconSpritePath: "../images/glyphicons-halflings.png";
+$iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
+
+/* Main bootstrap stylesheet */
+@import "bootstrap-sass/lib/bootstrap";
+
+/* Style for single modules */
+@import "bottom-navbar";
+@import "top-navbar";
+
+/* Misc stuff */
+@import "miscellaneous";
