@@ -1,9 +1,20 @@
 body {
-    margin-top: 150px;  /* to leave space for the top nav bar (total height of the navbar + 15px margin) */
-    margin-bottom: 50px;     /* to leave space for the bottom nav bar (same margin as the top navbar) */
+    padding-top: 150px;  	/* to leave space for the top nav bar (total height of the navbar + 15px margin) */
+    padding-bottom: 50px;   /* to leave space for the bottom nav bar (same margin as the top navbar) */
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
 }
 
 /* workaround for UI-bootstrap to work with empty href */
 .nav, .pagination, .carousel a { cursor: pointer; }
+
+@media (max-width: 767px) {
+	
+	//Remove padding from top and bottom
+
+	body {
+	    padding-top: 0;
+	    padding-bottom: 0;
+	}
+
+}

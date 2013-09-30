@@ -3,6 +3,7 @@ $iconWhiteSpritePath: "../images/glyphicons-halflings-white.png";
 
 /* Main bootstrap stylesheet */
 @import "bootstrap-sass/lib/bootstrap";
+@import "bootstrap-sass/lib/responsive";
 
 /* Style for single modules */
 @import "bottom-navbar";
